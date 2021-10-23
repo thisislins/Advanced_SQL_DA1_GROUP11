@@ -6,7 +6,7 @@
     <ProviderVersion>5.8.127.0</ProviderVersion>
     <GeneratorVersion>6.1.1225.0</GeneratorVersion>
     <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-    <ConnectionString>Data Source=LIN-LIN\SQLEXPRESS;Encrypt=False;Integrated Security=True;User ID=LIN-LIN\lephu</ConnectionString>
+    <ConnectionString>Data Source=LAPTOP-KTF30DB7\SQLEXPRESS;Encrypt=False;Initial Catalog=QuanLyHoaDon;Integrated Security=True</ConnectionString>
     <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
     <DatabaseName>QuanLyHoaDon</DatabaseName>
     <AllowNulls>true</AllowNulls>
@@ -147,24 +147,20 @@
         <Column Name="DUONG">
           <Checked>true</Checked>
           <DataType>nvarchar</DataType>
-          <GeneratorOptions xsi:type="TextFileGeneratorOptions">
+          <GeneratorOptions xsi:type="SqlRegularExpressionGeneratorOptions">
             <AllowEmptyStrings>false</AllowEmptyStrings>
             <EmptyStringProportion>10</EmptyStringProportion>
-            <AllowNulls>false</AllowNulls>
+            <AllowNulls>true</AllowNulls>
             <NullProportion>10</NullProportion>
             <ValueDistributionMode>Seed</ValueDistributionMode>
             <SeedValue>9</SeedValue>
-            <IsLoop>true</IsLoop>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <FileName>D:\Year3_Sem1\CSDL_NC\Duong_1.txt</FileName>
-            <TrimLeft>false</TrimLeft>
-            <TrimRight>false</TrimRight>
-            <CodePage>65001</CodePage>
+            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Duong_1.txt")</Expression>
           </GeneratorOptions>
-          <GeneratorType>SqlTextFileGenerator</GeneratorType>
-          <GeneratorName>Text File</GeneratorName>
-          <GeneratorDescription>loads values from specified text file</GeneratorDescription>
+          <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
           <Length>20</Length>
         </Column>
         <Column Name="PHUONG">
@@ -179,7 +175,7 @@
             <SeedValue>10</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"D:\Year3_Sem1\CSDL_NC\Phuong.txt"|[0-1][1-9])</Expression>
+            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Phuong.txt"|[0-1][1-9])</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -189,24 +185,20 @@
         <Column Name="QUAN">
           <Checked>true</Checked>
           <DataType>nvarchar</DataType>
-          <GeneratorOptions xsi:type="TextFileGeneratorOptions">
+          <GeneratorOptions xsi:type="SqlRegularExpressionGeneratorOptions">
             <AllowEmptyStrings>false</AllowEmptyStrings>
             <EmptyStringProportion>10</EmptyStringProportion>
-            <AllowNulls>false</AllowNulls>
+            <AllowNulls>true</AllowNulls>
             <NullProportion>10</NullProportion>
             <ValueDistributionMode>Seed</ValueDistributionMode>
             <SeedValue>11</SeedValue>
-            <IsLoop>true</IsLoop>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <FileName>D:\Year3_Sem1\CSDL_NC\Quan.txt</FileName>
-            <TrimLeft>false</TrimLeft>
-            <TrimRight>false</TrimRight>
-            <CodePage>65001</CodePage>
+            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Quan.txt")</Expression>
           </GeneratorOptions>
-          <GeneratorType>SqlTextFileGenerator</GeneratorType>
-          <GeneratorName>Text File</GeneratorName>
-          <GeneratorDescription>loads values from specified text file</GeneratorDescription>
+          <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
           <Length>20</Length>
         </Column>
         <Column Name="TPHO">
@@ -221,7 +213,7 @@
             <SeedValue>12</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"D:\Year3_Sem1\CSDL_NC\TPho.txt")</Expression>
+            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Tpho.txt")</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -296,7 +288,7 @@
             <SeedValue>15</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"D:\Year3_Sem1\CSDL_NC\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
+            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -485,7 +477,7 @@
         <RowsToGenerate>0</RowsToGenerate>
         <PopulationDetails>
           <PopulationType>RowsCount</PopulationType>
-          <RowsCount>100000</RowsCount>
+          <RowsCount>1000000</RowsCount>
           <LookupProportion>30</LookupProportion>
           <ProportionOfExistingData>10</ProportionOfExistingData>
           <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
@@ -632,7 +624,7 @@
   </Tables>
   <SynchronizationOptions xsi:type="SqlDataSynchronizationOptions">
     <SynchronizeType>File</SynchronizeType>
-    <SynchronizationFileName>C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\DataGeneration.sql</SynchronizationFileName>
+    <SynchronizationFileName>C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\DataGeneration.sql</SynchronizationFileName>
     <ExecuteCustomScriptTypeBefore>UseEmbeddedScript</ExecuteCustomScriptTypeBefore>
     <ExecuteCustomScriptTypeAfter>UseEmbeddedScript</ExecuteCustomScriptTypeAfter>
     <BackupPathName>C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup</BackupPathName>
