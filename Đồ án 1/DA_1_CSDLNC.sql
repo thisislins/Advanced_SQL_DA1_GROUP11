@@ -1,6 +1,10 @@
 ﻿use QuanLyHoaDon
 go
 
+--Danh sách khách hàng ở HCM
+SELECT* FROM KHACHHANG AS KH
+WHERE KH.TPHO = N'TP. Hồ Chí Minh'
+
 --Danh sách các sản phẩm có số lượng tồn < 100
 select sp.MASP, sp.TENSP, sp.SOLUONGTON
 from SANPHAM sp
