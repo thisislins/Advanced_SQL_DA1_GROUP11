@@ -21,7 +21,6 @@ namespace QuanLyHoaDon
             using (SqlConnection connection = new SqlConnection(ConnectionString.connection))
             {
                 DateTime date = DateTime.Parse(dateTimePicker1.Text);
-                MessageBox.Show(dateTimePicker1.Text);
                 connection.Open();
                 SqlCommand cmd = new SqlCommand("exec sp_Monthly_Statistic '" + date + "'", connection);
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);

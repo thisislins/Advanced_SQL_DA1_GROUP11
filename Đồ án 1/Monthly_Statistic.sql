@@ -1,7 +1,7 @@
 ﻿use QuanLyHoaDon
 go
 
-alter proc sp_Monthly_Statistic
+create proc sp_Monthly_Statistic
 @date date
 as
 begin
