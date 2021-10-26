@@ -1,7 +1,11 @@
 ﻿use QuanLyHoaDon
 go
 
+<<<<<<< HEAD
 create proc sp_Month_Statistic
+=======
+create proc sp_Monthly_Statistic
+>>>>>>> 7498efc377057f6939ef2b9aadd0f732d1f3f123
 @date date
 as
 begin
