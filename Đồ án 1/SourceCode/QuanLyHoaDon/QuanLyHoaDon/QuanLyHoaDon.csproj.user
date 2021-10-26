@@ -4,6 +4,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="menuThemHD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ThemCTHD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ThemHDControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

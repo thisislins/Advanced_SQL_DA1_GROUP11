@@ -59,7 +59,7 @@ namespace QuanLyHoaDon
             // 
             // buttonLoadData
             // 
-            this.buttonLoadData.Location = new System.Drawing.Point(40, 424);
+            this.buttonLoadData.Location = new System.Drawing.Point(273, 496);
             this.buttonLoadData.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonLoadData.Name = "buttonLoadData";
             this.buttonLoadData.Size = new System.Drawing.Size(86, 31);

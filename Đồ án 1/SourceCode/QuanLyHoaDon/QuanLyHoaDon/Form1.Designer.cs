@@ -48,7 +48,7 @@ namespace QuanLyHoaDon
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(813, 27);
+            this.panel1.Size = new System.Drawing.Size(862, 27);
             this.panel1.TabIndex = 0;
             // 
             // labelTitle
@@ -74,7 +74,7 @@ namespace QuanLyHoaDon
             this.panel2.Location = new System.Drawing.Point(0, 27);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(813, 60);
+            this.panel2.Size = new System.Drawing.Size(862, 60);
             this.panel2.TabIndex = 1;
             // 
             // buttonThongKe
@@ -116,14 +116,14 @@ namespace QuanLyHoaDon
             this.panelMain.Location = new System.Drawing.Point(0, 87);
             this.panelMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(813, 533);
+            this.panelMain.Size = new System.Drawing.Size(862, 653);
             this.panelMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 620);
+            this.ClientSize = new System.Drawing.Size(862, 740);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

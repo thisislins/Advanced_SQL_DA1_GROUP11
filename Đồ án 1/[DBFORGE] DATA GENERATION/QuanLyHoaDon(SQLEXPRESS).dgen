@@ -6,7 +6,7 @@
     <ProviderVersion>5.8.127.0</ProviderVersion>
     <GeneratorVersion>6.1.1225.0</GeneratorVersion>
     <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-    <ConnectionString>Data Source=LAPTOP-KTF30DB7\SQLEXPRESS;Encrypt=False;Initial Catalog=QuanLyHoaDon;Integrated Security=True</ConnectionString>
+    <ConnectionString>Data Source=MSI;Encrypt=False;Integrated Security=True;User ID=MSI\PC</ConnectionString>
     <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
     <DatabaseName>QuanLyHoaDon</DatabaseName>
     <AllowNulls>true</AllowNulls>
@@ -156,7 +156,8 @@
             <SeedValue>9</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Duong_1.txt")</Expression>
+            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Duong_1.txt")
+</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -175,7 +176,7 @@
             <SeedValue>10</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Phuong.txt"|[0-1][1-9])</Expression>
+            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Phuong.txt"|[0-1][1-9])</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -194,7 +195,7 @@
             <SeedValue>11</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Quan.txt")</Expression>
+            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Quan.txt")</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -213,7 +214,7 @@
             <SeedValue>12</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Tpho.txt")</Expression>
+            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Tpho.txt")</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -288,7 +289,7 @@
             <SeedValue>15</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
+            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -623,7 +624,6 @@
     </Table>
   </Tables>
   <SynchronizationOptions xsi:type="SqlDataSynchronizationOptions">
-    <SynchronizeType>File</SynchronizeType>
     <SynchronizationFileName>C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\DataGeneration.sql</SynchronizationFileName>
     <ExecuteCustomScriptTypeBefore>UseEmbeddedScript</ExecuteCustomScriptTypeBefore>
     <ExecuteCustomScriptTypeAfter>UseEmbeddedScript</ExecuteCustomScriptTypeAfter>

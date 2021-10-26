@@ -25,7 +25,7 @@ namespace QuanLyHoaDon
         private void buttonThemHD_Click(object sender, EventArgs e)
         {
             panelMain.Controls.Clear();
-            panelMain.Controls.Add(new ThemHDControl());
+            panelMain.Controls.Add(new menuThemHD());
         }
 
         private void buttonXemHD_Click(object sender, EventArgs e)
