@@ -48,6 +48,7 @@ C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Ad
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.dll
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.exe
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.deps.json
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.runtimeconfig.json
@@ -75,3 +76,30 @@ C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\De
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.genruntimeconfig.cache
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThemCTHD.resources
 C:\Users\PC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.menuThemHD.resources
+=======
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.exe
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.deps.json
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.runtimeconfig.json
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.runtimeconfig.dev.json
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.AssemblyReference.cache
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.Form1.resources
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThemHDControl.resources
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThongKeHDControl.resources
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.XemHDControl.resources
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.GenerateResource.cache
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.AssemblyInfoInputs.cache
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.AssemblyInfo.cs
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.CoreCompileInputs.cache
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.dll
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
+C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.genruntimeconfig.cache
+>>>>>>> 3aa600ae08c8d34cb9884ba8b35ec8669c708d86

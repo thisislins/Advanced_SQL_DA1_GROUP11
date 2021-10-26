@@ -1,8 +1,13 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\PC\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\PC\\.nuget\\packages"
+=======
+      "C:\\Users\\lephu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lephu\\.nuget\\packages"
+>>>>>>> 3aa600ae08c8d34cb9884ba8b35ec8669c708d86
     ]
   }
 }
