@@ -62,7 +62,7 @@ namespace QuanLyHoaDon
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(215, 0);
+            this.label1.Location = new System.Drawing.Point(192, -3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(327, 41);
             this.label1.TabIndex = 0;
@@ -73,14 +73,14 @@ namespace QuanLyHoaDon
             // 
             this.panel2.Controls.Add(this.numericUpDownSlg);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(24, 178);
+            this.panel2.Location = new System.Drawing.Point(102, 155);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(490, 58);
             this.panel2.TabIndex = 4;
             // 
             // numericUpDownSlg
             // 
-            this.numericUpDownSlg.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownSlg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.numericUpDownSlg.Location = new System.Drawing.Point(191, 12);
             this.numericUpDownSlg.Maximum = new decimal(new int[] {
             200,
@@ -93,7 +93,7 @@ namespace QuanLyHoaDon
             0,
             0});
             this.numericUpDownSlg.Name = "numericUpDownSlg";
-            this.numericUpDownSlg.Size = new System.Drawing.Size(262, 39);
+            this.numericUpDownSlg.Size = new System.Drawing.Size(262, 34);
             this.numericUpDownSlg.TabIndex = 2;
             this.numericUpDownSlg.Value = new decimal(new int[] {
             1,
@@ -104,10 +104,10 @@ namespace QuanLyHoaDon
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(21, 19);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(21, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 32);
+            this.label3.Size = new System.Drawing.Size(96, 28);
             this.label3.TabIndex = 1;
             this.label3.Text = "Số lượng:";
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
@@ -116,31 +116,31 @@ namespace QuanLyHoaDon
             // 
             this.panel4.Controls.Add(this.numericUpDownGiaGiam);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(24, 299);
+            this.panel4.Location = new System.Drawing.Point(102, 276);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(490, 62);
+            this.panel4.Size = new System.Drawing.Size(490, 51);
             this.panel4.TabIndex = 5;
             // 
             // numericUpDownGiaGiam
             // 
-            this.numericUpDownGiaGiam.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownGiaGiam.Location = new System.Drawing.Point(192, 16);
+            this.numericUpDownGiaGiam.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownGiaGiam.Location = new System.Drawing.Point(191, 9);
             this.numericUpDownGiaGiam.Maximum = new decimal(new int[] {
             1000000000,
             0,
             0,
             0});
             this.numericUpDownGiaGiam.Name = "numericUpDownGiaGiam";
-            this.numericUpDownGiaGiam.Size = new System.Drawing.Size(261, 39);
+            this.numericUpDownGiaGiam.Size = new System.Drawing.Size(261, 34);
             this.numericUpDownGiaGiam.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(21, 23);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(21, 11);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 32);
+            this.label5.Size = new System.Drawing.Size(94, 28);
             this.label5.TabIndex = 1;
             this.label5.Text = "Giá giảm:";
             // 
@@ -148,26 +148,26 @@ namespace QuanLyHoaDon
             // 
             this.panel1.Controls.Add(this.textBoxMaSP);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(24, 121);
+            this.panel1.Location = new System.Drawing.Point(102, 98);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(490, 58);
             this.panel1.TabIndex = 3;
             // 
             // textBoxMaSP
             // 
-            this.textBoxMaSP.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxMaSP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxMaSP.Location = new System.Drawing.Point(191, 12);
             this.textBoxMaSP.Name = "textBoxMaSP";
-            this.textBoxMaSP.Size = new System.Drawing.Size(262, 39);
+            this.textBoxMaSP.Size = new System.Drawing.Size(262, 34);
             this.textBoxMaSP.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(21, 19);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(21, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 32);
+            this.label2.Size = new System.Drawing.Size(133, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã sản phẩm:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -176,15 +176,15 @@ namespace QuanLyHoaDon
             // 
             this.panel3.Controls.Add(this.numericUpDownGiaBan);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(24, 242);
+            this.panel3.Location = new System.Drawing.Point(102, 219);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(490, 60);
+            this.panel3.Size = new System.Drawing.Size(490, 51);
             this.panel3.TabIndex = 4;
             // 
             // numericUpDownGiaBan
             // 
-            this.numericUpDownGiaBan.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownGiaBan.Location = new System.Drawing.Point(192, 12);
+            this.numericUpDownGiaBan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownGiaBan.Location = new System.Drawing.Point(192, 10);
             this.numericUpDownGiaBan.Maximum = new decimal(new int[] {
             1000000000,
             0,
@@ -196,7 +196,7 @@ namespace QuanLyHoaDon
             0,
             0});
             this.numericUpDownGiaBan.Name = "numericUpDownGiaBan";
-            this.numericUpDownGiaBan.Size = new System.Drawing.Size(261, 39);
+            this.numericUpDownGiaBan.Size = new System.Drawing.Size(261, 34);
             this.numericUpDownGiaBan.TabIndex = 3;
             this.numericUpDownGiaBan.Value = new decimal(new int[] {
             100,
@@ -207,10 +207,10 @@ namespace QuanLyHoaDon
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(21, 19);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(21, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 32);
+            this.label4.Size = new System.Drawing.Size(83, 28);
             this.label4.TabIndex = 1;
             this.label4.Text = "Giá bán:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -219,7 +219,7 @@ namespace QuanLyHoaDon
             // 
             this.buttonThemCTHD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.buttonThemCTHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonThemCTHD.Location = new System.Drawing.Point(289, 406);
+            this.buttonThemCTHD.Location = new System.Drawing.Point(293, 335);
             this.buttonThemCTHD.Name = "buttonThemCTHD";
             this.buttonThemCTHD.Size = new System.Drawing.Size(113, 38);
             this.buttonThemCTHD.TabIndex = 6;
@@ -231,26 +231,26 @@ namespace QuanLyHoaDon
             // 
             this.panel6.Controls.Add(this.textBoxMaHD);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(24, 64);
+            this.panel6.Location = new System.Drawing.Point(102, 41);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(490, 57);
             this.panel6.TabIndex = 6;
             // 
             // textBoxMaHD
             // 
-            this.textBoxMaHD.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxMaHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxMaHD.Location = new System.Drawing.Point(191, 12);
             this.textBoxMaHD.Name = "textBoxMaHD";
-            this.textBoxMaHD.Size = new System.Drawing.Size(262, 39);
+            this.textBoxMaHD.Size = new System.Drawing.Size(262, 34);
             this.textBoxMaHD.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(21, 19);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(21, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 32);
+            this.label6.Size = new System.Drawing.Size(122, 28);
             this.label6.TabIndex = 1;
             this.label6.Text = "Mã hóa đơn:";
             // 

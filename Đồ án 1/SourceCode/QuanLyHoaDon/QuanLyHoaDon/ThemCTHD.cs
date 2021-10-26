@@ -25,8 +25,6 @@ namespace QuanLyHoaDon
         {
 
         }
-
-        SqlConnection connection = new SqlConnection("Data Source=MSI;Initial Catalog=QuanLyHoaDon;Integrated Security=True");
         private void buttonThemCTHD_Click(object sender, EventArgs e)
         {
             using(SqlConnection connection = new SqlConnection(ConnectionString.connection))

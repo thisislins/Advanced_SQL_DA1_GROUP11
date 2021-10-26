@@ -61,7 +61,7 @@ namespace QuanLyHoaDon
             // 
             this.panelMenuThemHD.Controls.Add(this.buttonThemCTHD);
             this.panelMenuThemHD.Controls.Add(this.buttonThemHD);
-            this.panelMenuThemHD.Location = new System.Drawing.Point(85, 49);
+            this.panelMenuThemHD.Location = new System.Drawing.Point(120, 83);
             this.panelMenuThemHD.Name = "panelMenuThemHD";
             this.panelMenuThemHD.Size = new System.Drawing.Size(607, 376);
             this.panelMenuThemHD.TabIndex = 2;

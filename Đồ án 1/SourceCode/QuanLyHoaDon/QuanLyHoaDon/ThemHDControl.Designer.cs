@@ -43,7 +43,7 @@ namespace QuanLyHoaDon
             // 
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelTitle.Location = new System.Drawing.Point(243, 34);
+            this.labelTitle.Location = new System.Drawing.Point(237, 0);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(269, 38);
             this.labelTitle.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace QuanLyHoaDon
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(94, 185);
+            this.label1.Location = new System.Drawing.Point(92, 136);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 32);
             this.label1.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace QuanLyHoaDon
             // textBoxMaKH
             // 
             this.textBoxMaKH.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxMaKH.Location = new System.Drawing.Point(94, 220);
+            this.textBoxMaKH.Location = new System.Drawing.Point(92, 171);
             this.textBoxMaKH.Name = "textBoxMaKH";
             this.textBoxMaKH.Size = new System.Drawing.Size(492, 39);
             this.textBoxMaKH.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace QuanLyHoaDon
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(94, 278);
+            this.label2.Location = new System.Drawing.Point(92, 229);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(210, 32);
             this.label2.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace QuanLyHoaDon
             // 
             this.dateTimePickerNgay.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dateTimePickerNgay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerNgay.Location = new System.Drawing.Point(94, 325);
+            this.dateTimePickerNgay.Location = new System.Drawing.Point(92, 276);
             this.dateTimePickerNgay.MaxDate = new System.DateTime(2021, 10, 26, 0, 0, 0, 0);
             this.dateTimePickerNgay.MinDate = new System.DateTime(2020, 5, 1, 0, 0, 0, 0);
             this.dateTimePickerNgay.Name = "dateTimePickerNgay";
@@ -96,7 +96,7 @@ namespace QuanLyHoaDon
             // 
             this.buttonTaoHD.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.buttonTaoHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonTaoHD.Location = new System.Drawing.Point(294, 410);
+            this.buttonTaoHD.Location = new System.Drawing.Point(285, 336);
             this.buttonTaoHD.Name = "buttonTaoHD";
             this.buttonTaoHD.Size = new System.Drawing.Size(146, 44);
             this.buttonTaoHD.TabIndex = 5;
@@ -108,7 +108,7 @@ namespace QuanLyHoaDon
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(94, 96);
+            this.label3.Location = new System.Drawing.Point(92, 47);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 32);
             this.label3.TabIndex = 6;
@@ -117,7 +117,7 @@ namespace QuanLyHoaDon
             // textBoxMaHD
             // 
             this.textBoxMaHD.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxMaHD.Location = new System.Drawing.Point(94, 131);
+            this.textBoxMaHD.Location = new System.Drawing.Point(92, 82);
             this.textBoxMaHD.Name = "textBoxMaHD";
             this.textBoxMaHD.Size = new System.Drawing.Size(492, 39);
             this.textBoxMaHD.TabIndex = 7;
