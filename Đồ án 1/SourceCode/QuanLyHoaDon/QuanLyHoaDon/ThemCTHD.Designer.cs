@@ -219,7 +219,7 @@ namespace QuanLyHoaDon
             // 
             this.buttonThemCTHD.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.buttonThemCTHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonThemCTHD.Location = new System.Drawing.Point(520, 191);
+            this.buttonThemCTHD.Location = new System.Drawing.Point(289, 406);
             this.buttonThemCTHD.Name = "buttonThemCTHD";
             this.buttonThemCTHD.Size = new System.Drawing.Size(113, 38);
             this.buttonThemCTHD.TabIndex = 6;
@@ -265,7 +265,7 @@ namespace QuanLyHoaDon
             this.panel5.Controls.Add(this.label1);
             this.panel5.Location = new System.Drawing.Point(3, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(785, 403);
+            this.panel5.Size = new System.Drawing.Size(642, 507);
             this.panel5.TabIndex = 7;
             // 
             // ThemCTHD
