@@ -32,10 +32,10 @@ namespace QuanLyHoaDon
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonThongKe = new System.Windows.Forms.Button();
             this.buttonXemHD = new System.Windows.Forms.Button();
             this.buttonThemHD = new System.Windows.Forms.Button();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.buttonThongKe = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -46,8 +46,9 @@ namespace QuanLyHoaDon
             this.panel1.Controls.Add(this.labelTitle);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(711, 20);
+            this.panel1.Size = new System.Drawing.Size(813, 27);
             this.panel1.TabIndex = 0;
             // 
             // labelTitle
@@ -57,7 +58,7 @@ namespace QuanLyHoaDon
             this.labelTitle.ForeColor = System.Drawing.Color.White;
             this.labelTitle.Location = new System.Drawing.Point(0, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(154, 15);
+            this.labelTitle.Size = new System.Drawing.Size(190, 20);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Phần mềm quản lý hóa đơn";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -70,16 +71,29 @@ namespace QuanLyHoaDon
             this.panel2.Controls.Add(this.buttonXemHD);
             this.panel2.Controls.Add(this.buttonThemHD);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 20);
+            this.panel2.Location = new System.Drawing.Point(0, 27);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(711, 45);
+            this.panel2.Size = new System.Drawing.Size(813, 60);
             this.panel2.TabIndex = 1;
+            // 
+            // buttonThongKe
+            // 
+            this.buttonThongKe.Location = new System.Drawing.Point(553, 7);
+            this.buttonThongKe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonThongKe.Name = "buttonThongKe";
+            this.buttonThongKe.Size = new System.Drawing.Size(184, 45);
+            this.buttonThongKe.TabIndex = 2;
+            this.buttonThongKe.Text = "Thống Kê";
+            this.buttonThongKe.UseVisualStyleBackColor = true;
+            this.buttonThongKe.Click += new System.EventHandler(this.buttonThongKe_Click);
             // 
             // buttonXemHD
             // 
-            this.buttonXemHD.Location = new System.Drawing.Point(58, 6);
+            this.buttonXemHD.Location = new System.Drawing.Point(66, 8);
+            this.buttonXemHD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonXemHD.Name = "buttonXemHD";
-            this.buttonXemHD.Size = new System.Drawing.Size(153, 34);
+            this.buttonXemHD.Size = new System.Drawing.Size(175, 45);
             this.buttonXemHD.TabIndex = 1;
             this.buttonXemHD.Text = "Xem Hóa Đơn";
             this.buttonXemHD.UseVisualStyleBackColor = true;
@@ -87,9 +101,10 @@ namespace QuanLyHoaDon
             // 
             // buttonThemHD
             // 
-            this.buttonThemHD.Location = new System.Drawing.Point(271, 6);
+            this.buttonThemHD.Location = new System.Drawing.Point(310, 8);
+            this.buttonThemHD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonThemHD.Name = "buttonThemHD";
-            this.buttonThemHD.Size = new System.Drawing.Size(161, 34);
+            this.buttonThemHD.Size = new System.Drawing.Size(184, 45);
             this.buttonThemHD.TabIndex = 0;
             this.buttonThemHD.Text = "Thêm Hóa Đơn";
             this.buttonThemHD.UseVisualStyleBackColor = true;
@@ -98,29 +113,21 @@ namespace QuanLyHoaDon
             // panelMain
             // 
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 65);
+            this.panelMain.Location = new System.Drawing.Point(0, 87);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(711, 400);
+            this.panelMain.Size = new System.Drawing.Size(813, 533);
             this.panelMain.TabIndex = 2;
-            // 
-            // buttonThongKe
-            // 
-            this.buttonThongKe.Location = new System.Drawing.Point(484, 5);
-            this.buttonThongKe.Name = "buttonThongKe";
-            this.buttonThongKe.Size = new System.Drawing.Size(161, 34);
-            this.buttonThongKe.TabIndex = 2;
-            this.buttonThongKe.Text = "Thống Kê";
-            this.buttonThongKe.UseVisualStyleBackColor = true;
-            this.buttonThongKe.Click += new System.EventHandler(this.buttonThongKe_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 465);
+            this.ClientSize = new System.Drawing.Size(813, 620);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

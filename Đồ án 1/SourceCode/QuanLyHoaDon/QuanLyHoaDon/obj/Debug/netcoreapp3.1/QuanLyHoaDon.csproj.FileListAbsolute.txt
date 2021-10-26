@@ -23,3 +23,28 @@ D:\HCMUS\CSDL_Adv\QuanLyHoaDon\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1
 D:\HCMUS\CSDL_Adv\QuanLyHoaDon\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\HCMUS\CSDL_Adv\QuanLyHoaDon\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.CopyComplete
 D:\HCMUS\CSDL_Adv\QuanLyHoaDon\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThongKeHDControl.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.exe
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.deps.json
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.runtimeconfig.json
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.runtimeconfig.dev.json
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csprojAssemblyReference.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.Form1.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThemHDControl.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThongKeHDControl.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.XemHDControl.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.GenerateResource.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.AssemblyInfoInputs.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.AssemblyInfo.cs
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.CoreCompileInputs.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.csproj.CopyComplete
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.genruntimeconfig.cache
