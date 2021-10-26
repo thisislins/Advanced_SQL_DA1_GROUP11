@@ -6,13 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-<<<<<<< HEAD
-      "C:\\Users\\PC\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\PC\\.nuget\\packages"
-=======
-      "C:\\Users\\lephu\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\lephu\\.nuget\\packages"
->>>>>>> 3aa600ae08c8d34cb9884ba8b35ec8669c708d86
+      "C:\\Users\\AN515-52\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AN515-52\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

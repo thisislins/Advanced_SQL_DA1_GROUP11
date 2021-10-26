@@ -103,3 +103,5 @@ C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHo
 C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.pdb
 C:\Users\lephu\Desktop\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.genruntimeconfig.cache
 >>>>>>> 3aa600ae08c8d34cb9884ba8b35ec8669c708d86
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.menuThemHD.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK1_2021_2022\CSDLNC\Advanced_SQL\Đồ án 1\SourceCode\QuanLyHoaDon\QuanLyHoaDon\obj\Debug\netcoreapp3.1\QuanLyHoaDon.ThemCTHD.resources

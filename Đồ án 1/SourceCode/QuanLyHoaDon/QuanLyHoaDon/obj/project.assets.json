@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\AN515-52\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\QuanLyHoaDon.csproj",
+      "projectUniqueName": "C:\\Users\\AN515-52\\OneDrive - VNU-HCMUS\\Desktop\\CNTT_KHTN\\HK1_2021_2022\\CSDLNC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\QuanLyHoaDon.csproj",
       "projectName": "QuanLyHoaDon",
-      "projectPath": "C:\\Users\\PC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\QuanLyHoaDon.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\obj\\",
+      "projectPath": "C:\\Users\\AN515-52\\OneDrive - VNU-HCMUS\\Desktop\\CNTT_KHTN\\HK1_2021_2022\\CSDLNC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\QuanLyHoaDon.csproj",
+      "packagesPath": "C:\\Users\\AN515-52\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AN515-52\\OneDrive - VNU-HCMUS\\Desktop\\CNTT_KHTN\\HK1_2021_2022\\CSDLNC\\Advanced_SQL\\Đồ án 1\\SourceCode\\QuanLyHoaDon\\QuanLyHoaDon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AN515-52\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,7 +515,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

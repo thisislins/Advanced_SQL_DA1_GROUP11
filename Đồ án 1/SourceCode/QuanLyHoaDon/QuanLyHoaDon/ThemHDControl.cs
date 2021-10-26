@@ -31,64 +31,66 @@ namespace QuanLyHoaDon
 
         }
 
-        SqlConnection connection = new SqlConnection("Data Source=MSI;Initial Catalog=QuanLyHoaDon;Integrated Security=True");
         private void buttonTaoHD_Click(object sender, EventArgs e)
         {
-            string maHD, maKH;
-            DateTime ngay = dateTimePickerNgay.Value;
-            maHD = textBoxMaHD.Text;
-            maKH = textBoxMaKH.Text;
-
-            if (maKH.Length != 8)
+            using(SqlConnection connection = new SqlConnection(ConnectionString.connection))
             {
-                MessageBox.Show("Ma khach hang khong hop le");
-                textBoxMaKH.Clear();
-                return;
-            }
+                string maHD, maKH;
+                DateTime ngay = dateTimePickerNgay.Value;
+                maHD = textBoxMaHD.Text;
+                maKH = textBoxMaKH.Text;
 
-            if (maHD.Length != 8)
-            {
-                MessageBox.Show("Ma hoa don khong hop le");
-                textBoxMaHD.Clear();
-                return;
-            }
+                if (maKH.Length != 8)
+                {
+                    MessageBox.Show("Ma khach hang khong hop le");
+                    textBoxMaKH.Clear();
+                    return;
+                }
 
-            connection.Open();
-            string sqlHD = "SELECT* FROM HOADON WHERE HOADON.MAHD = '" + textBoxMaHD.Text + "'";
-            string sqlKH = "SELECT* FROM KHACHHANG WHERE KHACHHANG.MAKH = '" + textBoxMaKH.Text + "'";
+                if (maHD.Length != 8)
+                {
+                    MessageBox.Show("Ma hoa don khong hop le");
+                    textBoxMaHD.Clear();
+                    return;
+                }
 
-            SqlCommand cmd1 = new SqlCommand(sqlHD, connection);
-            SqlDataAdapter sqlDataAdapter1 = new SqlDataAdapter(cmd1);
-            DataTable dataTable1 = new DataTable();
-            sqlDataAdapter1.Fill(dataTable1);
+                connection.Open();
+                string sqlHD = "SELECT* FROM HOADON WHERE HOADON.MAHD = '" + textBoxMaHD.Text + "'";
+                string sqlKH = "SELECT* FROM KHACHHANG WHERE KHACHHANG.MAKH = '" + textBoxMaKH.Text + "'";
 
-            //kiem tra ma hoa don co ton tai khong
-            if (dataTable1.Rows.Count > 0)
-            {
-                MessageBox.Show("MaHD da ton tai");
+                SqlCommand cmd1 = new SqlCommand(sqlHD, connection);
+                SqlDataAdapter sqlDataAdapter1 = new SqlDataAdapter(cmd1);
+                DataTable dataTable1 = new DataTable();
+                sqlDataAdapter1.Fill(dataTable1);
+
+                //kiem tra ma hoa don co ton tai khong
+                if (dataTable1.Rows.Count > 0)
+                {
+                    MessageBox.Show("MaHD da ton tai");
+                    connection.Close();
+                    return;
+                }
+
+                //kiem tra ma khach hang co ton tai khong
+                SqlCommand cmd2 = new SqlCommand(sqlKH, connection);
+                SqlDataAdapter sqlDataAdapter2 = new SqlDataAdapter(cmd2);
+                DataTable dataTable2 = new DataTable();
+                sqlDataAdapter2.Fill(dataTable2);
+                if (dataTable2.Rows.Count > 0)
+                {
+                    SqlCommand command = new SqlCommand("insert into HOADON (MAHD, MAKH, NGAYLAP) " +
+                                                         "values ('" + maHD + "', '" + maKH + "', '" + ngay + "')", connection);
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Them hoa don thanh cong!");
+                }
+                else
+                {
+                    MessageBox.Show("MaKH khong ton tai");
+                    connection.Close();
+                    return;
+                }
                 connection.Close();
-                return;
             }
-
-            //kiem tra ma khach hang co ton tai khong
-            SqlCommand cmd2 = new SqlCommand(sqlKH, connection);
-            SqlDataAdapter sqlDataAdapter2 = new SqlDataAdapter(cmd2);
-            DataTable dataTable2 = new DataTable();
-            sqlDataAdapter2.Fill(dataTable2);
-            if (dataTable2.Rows.Count > 0)
-            {
-                SqlCommand command = new SqlCommand("insert into HOADON (MAHD, MAKH, NGAYLAP) " +
-                                                     "values ('" + maHD + "', '" + maKH + "', '" + ngay + "')", connection);
-                command.ExecuteNonQuery();
-                MessageBox.Show("Them hoa don thanh cong!");
-            }
-            else
-            {
-                MessageBox.Show("MaKH khong ton tai");
-                connection.Close();
-                return;
-            }
-            connection.Close();
         }
     }
 }

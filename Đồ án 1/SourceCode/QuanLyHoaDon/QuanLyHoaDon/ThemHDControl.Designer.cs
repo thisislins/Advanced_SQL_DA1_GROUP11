@@ -83,6 +83,7 @@ namespace QuanLyHoaDon
             // dateTimePickerNgay
             // 
             this.dateTimePickerNgay.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTimePickerNgay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePickerNgay.Location = new System.Drawing.Point(94, 325);
             this.dateTimePickerNgay.MaxDate = new System.DateTime(2021, 10, 26, 0, 0, 0, 0);
             this.dateTimePickerNgay.MinDate = new System.DateTime(2020, 5, 1, 0, 0, 0, 0);
