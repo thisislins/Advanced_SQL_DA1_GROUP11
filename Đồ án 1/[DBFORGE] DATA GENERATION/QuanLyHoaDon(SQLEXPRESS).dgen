@@ -6,7 +6,7 @@
     <ProviderVersion>5.8.127.0</ProviderVersion>
     <GeneratorVersion>6.1.1225.0</GeneratorVersion>
     <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-    <ConnectionString>Data Source=MSI;Encrypt=False;Integrated Security=True;User ID=MSI\PC</ConnectionString>
+    <ConnectionString>Data Source=LIN-LIN\SQLEXPRESS;Encrypt=False;Integrated Security=True;User ID=LIN-LIN\lephu</ConnectionString>
     <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
     <DatabaseName>QuanLyHoaDon</DatabaseName>
     <AllowNulls>true</AllowNulls>
@@ -150,13 +150,13 @@
           <GeneratorOptions xsi:type="SqlRegularExpressionGeneratorOptions">
             <AllowEmptyStrings>false</AllowEmptyStrings>
             <EmptyStringProportion>10</EmptyStringProportion>
-            <AllowNulls>true</AllowNulls>
+            <AllowNulls>false</AllowNulls>
             <NullProportion>10</NullProportion>
             <ValueDistributionMode>Seed</ValueDistributionMode>
             <SeedValue>9</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Duong_1.txt")
+            <Expression>($"D:\Year3_Sem1\CSDL_NC\Duong_1.txt")
 </Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
@@ -176,7 +176,7 @@
             <SeedValue>10</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Phuong.txt"|[0-1][1-9])</Expression>
+            <Expression>($"D:\Year3_Sem1\CSDL_NC\Phuong.txt"|[0-1][1-9])</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -189,13 +189,13 @@
           <GeneratorOptions xsi:type="SqlRegularExpressionGeneratorOptions">
             <AllowEmptyStrings>false</AllowEmptyStrings>
             <EmptyStringProportion>10</EmptyStringProportion>
-            <AllowNulls>true</AllowNulls>
+            <AllowNulls>false</AllowNulls>
             <NullProportion>10</NullProportion>
             <ValueDistributionMode>Seed</ValueDistributionMode>
             <SeedValue>11</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Quan.txt")</Expression>
+            <Expression>($"D:\Year3_Sem1\CSDL_NC\Quan.txt")</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -214,7 +214,7 @@
             <SeedValue>12</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\Tpho.txt")</Expression>
+            <Expression>($"D:\Year3_Sem1\CSDL_NC\Tpho.txt")</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -289,7 +289,7 @@
             <SeedValue>15</SeedValue>
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
-            <Expression>($"C:\Users\PC\Advanced_SQL\Đồ án 1\[DBFORGE] DATA GENERATION\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
+            <Expression>($"D:\Year3_Sem1\CSDL_NC\San_pham.txt" - (Anh|Pháp|Đức|Mỹ|VN|TQ|Hàn|Úc|Thái|Nhật|Ý|Nga|Hà Lan|Canada))</Expression>
           </GeneratorOptions>
           <GeneratorType>SqlStringRegularExpressionGenerator</GeneratorType>
           <GeneratorName>Reg Exp</GeneratorName>
@@ -346,10 +346,10 @@
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <Increment xsi:type="xsd:decimal">50</Increment>
-            <ValueDistributionMode>Sequential</ValueDistributionMode>
+            <ValueDistributionMode>Random</ValueDistributionMode>
             <SeedValue>14</SeedValue>
             <MinValue>30000</MinValue>
-            <MaxValue>9999999</MaxValue>
+            <MaxValue>700000</MaxValue>
             <UseDefault>false</UseDefault>
             <DefaultValue />
           </GeneratorOptions>
@@ -427,8 +427,8 @@
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <UseDefault>false</UseDefault>
-            <ValueDistributionMode>Seed</ValueDistributionMode>
-            <SeedValue>4</SeedValue>
+            <ValueDistributionMode>Random</ValueDistributionMode>
+            <SeedValue>1</SeedValue>
             <SequentialValueTicks>864000000000</SequentialValueTicks>
             <OffsetFromColumnMaxTimeTicks>10000000</OffsetFromColumnMaxTimeTicks>
             <OffsetFromColumnMinTimeTicks>10000000</OffsetFromColumnMinTimeTicks>
@@ -455,10 +455,10 @@
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <Increment xsi:type="xsd:decimal">20</Increment>
-            <ValueDistributionMode>Sequential</ValueDistributionMode>
+            <ValueDistributionMode>Random</ValueDistributionMode>
             <SeedValue>0</SeedValue>
             <MinValue>30000</MinValue>
-            <MaxValue>9999999</MaxValue>
+            <MaxValue>2000000</MaxValue>
             <UseDefault>false</UseDefault>
             <DefaultValue />
           </GeneratorOptions>
@@ -489,15 +489,15 @@
           <Checked>true</Checked>
           <DataType>varchar</DataType>
           <GeneratorOptions xsi:type="ForeignKeyGeneratorOptions">
-            <Unique>true</Unique>
+            <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <AllowNulls>false</AllowNulls>
             <NullProportion>0</NullProportion>
-            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <ValueDistributionMode>Random</ValueDistributionMode>
             <SeedValue>1</SeedValue>
-            <RepeatValues>false</RepeatValues>
-            <FromTimes>1</FromTimes>
-            <ToTimes>10</ToTimes>
+            <RepeatValues>true</RepeatValues>
+            <FromTimes>2</FromTimes>
+            <ToTimes>2</ToTimes>
             <ExcludeValues>false</ExcludeValues>
             <ExclusionValuesPercent>1</ExclusionValuesPercent>
           </GeneratorOptions>
@@ -511,15 +511,15 @@
           <Checked>true</Checked>
           <DataType>varchar</DataType>
           <GeneratorOptions xsi:type="ForeignKeyGeneratorOptions">
-            <Unique>true</Unique>
+            <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <AllowNulls>false</AllowNulls>
             <NullProportion>0</NullProportion>
-            <ValueDistributionMode>Seed</ValueDistributionMode>
-            <SeedValue>2</SeedValue>
+            <ValueDistributionMode>Random</ValueDistributionMode>
+            <SeedValue>3</SeedValue>
             <RepeatValues>false</RepeatValues>
-            <FromTimes>1</FromTimes>
-            <ToTimes>10</ToTimes>
+            <FromTimes>29</FromTimes>
+            <ToTimes>110</ToTimes>
             <ExcludeValues>false</ExcludeValues>
             <ExclusionValuesPercent>1</ExclusionValuesPercent>
           </GeneratorOptions>
@@ -560,10 +560,10 @@
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <Increment xsi:type="xsd:decimal">50</Increment>
-            <ValueDistributionMode>Sequential</ValueDistributionMode>
+            <ValueDistributionMode>Random</ValueDistributionMode>
             <SeedValue>1</SeedValue>
             <MinValue>30000</MinValue>
-            <MaxValue>9999999</MaxValue>
+            <MaxValue>500000</MaxValue>
             <UseDefault>false</UseDefault>
             <DefaultValue />
           </GeneratorOptions>
@@ -606,10 +606,10 @@
             <Unique>false</Unique>
             <IsAlwaysUnique>false</IsAlwaysUnique>
             <Increment xsi:type="xsd:decimal">20000</Increment>
-            <ValueDistributionMode>Sequential</ValueDistributionMode>
+            <ValueDistributionMode>Random</ValueDistributionMode>
             <SeedValue>3</SeedValue>
-            <MinValue>0</MinValue>
-            <MaxValue>9999999</MaxValue>
+            <MinValue>30000</MinValue>
+            <MaxValue>2000000</MaxValue>
             <UseDefault>false</UseDefault>
             <DefaultValue />
           </GeneratorOptions>

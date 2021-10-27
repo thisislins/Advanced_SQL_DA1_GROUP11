@@ -1,8 +1,8 @@
 ﻿-- bảng tầm ảnh hưởng
---             thêm    xóa    sữa
+--             thêm    xóa    sửa
 --ct_hoadon     +       -     +(Soluong, GiaBan, GiaGiam)
 
-
+-- Xác nhập với việc update TONGTIEN ở bảng HOADON
 use QuanLyHoaDon;
 
 GO
