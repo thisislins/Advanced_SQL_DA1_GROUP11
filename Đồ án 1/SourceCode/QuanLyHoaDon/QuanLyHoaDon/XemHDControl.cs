@@ -61,10 +61,10 @@ namespace QuanLyHoaDon
                 query = query + condition;
                 
                 //clear lựa chọn thời gian
-                foreach(RadioButton item in panelDate.Controls)
-                {
-                    item.Checked = false;
-                }
+                //foreach(RadioButton item in panelDate.Controls)
+                //{
+                    //item.Checked = false;
+                //}
 
                 //load lại bảng dữ liệu
                 LoadData(query);

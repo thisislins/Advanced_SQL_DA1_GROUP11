@@ -3,9 +3,10 @@
 --ct_hoadon     +       -     +(Soluong, GiaBan, GiaGiam)
 
 -- Xác nhập với việc update TONGTIEN ở bảng HOADON
-use QuanLyHoaDon;
+use QuanLyHoaDon
 
 GO
+-- 2a. Thành tiền CTHD= (Số lượng * (Giá bán-Giá giảm))
 CREATE TRIGGER tg_THANHTIEN_FOR_INSERT ON CT_HOADON
 FOR UPDATE, INSERT
 AS
