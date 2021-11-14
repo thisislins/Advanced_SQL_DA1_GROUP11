@@ -1,0 +1,170 @@
+﻿USE QuanLyHoaDon
+GO
+
+--3a. DANH SÁCH HÓA ĐƠN LẬP TRONG NĂM 2020
+SELECT COUNT(*) 
+FROM HOADON
+WHERE year(NGAYLAP) = 2020
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT * FROM HOADON
+EXCEPT
+SELECT * FROM HOADON
+WHERE YEAR(NGAYLAP)!=2020
+GO
+
+
+-- 3b. DANH SÁCH KHÁCH HÀNG Ở TP.HCM
+SELECT *
+FROM KHACHHANG
+WHERE TPHO LIKE N'TP. Hồ Chí Minh'
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT * FROM KHACHHANG
+WHERE TPHO = N'TP.Hồ Chí Minh'
+GO
+-- Cách 3. Dùng để so sánh execution plan
+SELECT * FROM KHACHHANG
+WHERE MAKH NOT IN (SELECT MAKH
+					FROM KHACHHANG
+					WHERE TPHO != N'TP. Hồ Chí Minh')
+GO
+
+--3c. DANH SÁCH SẢN PHẨM CÓ GIÁ TỪ 30000 ĐẾN 40000
+SELECT sp.MASP, sp.TENSP, sp.GIA
+FROM SANPHAM sp
+WHERE sp.GIA >= 30000 AND sp.GIA <= 40000
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT sp.MASP, sp.TENSP, sp.GIA
+FROM SANPHAM sp
+WHERE sp.GIA BETWEEN 30000 AND 40000
+GO
+-- Cách 3. Dùng để so sánh execution plan
+SELECT sp.MASP, sp.TENSP, sp.GIA
+FROM SANPHAM sp
+WHERE sp.GIA not in (
+	SELECT sp.GIA
+	FROM SANPHAM sp
+	WHERE sp.GIA > 40000 OR sp.GIA < 30000)
+GO
+-- Cách 4. Dùng để so sánh execution plan
+SELECT sp.MASP, sp.TENSP, sp.GIA
+FROM SANPHAM sp
+WHERE not exists (
+	SELECT *
+	FROM SANPHAM sp2
+	WHERE sp.MASP = sp2.MASP AND (sp.GIA > 40000 OR sp.GIA < 30000))
+GO
+
+
+--3d. DANH SÁCH SẢN PHẨM CÓ SỐ LƯỢNG TỒN < 100
+SELECT sp.MASP, sp.TENSP, sp.SOLUONGTON
+FROM SANPHAM sp
+WHERE sp.SOLUONGTON < 100
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT sp.MASP, sp.TENSP, sp.SOLUONGTON
+FROM SANPHAM sp
+WHERE sp.SOLUONGTON not in (
+	SELECT sp.SOLUONGTON
+	from SANPHAM sp
+	where sp.SOLUONGTON >= 100)
+GO
+-- Cách 3. Dùng để so sánh execution plan
+SELECT sp.MASP, sp.TENSP, sp.SOLUONGTON
+from SANPHAM sp
+where not exists (
+	SELECT *
+	from SANPHAM sp2
+	where sp.MASP = sp2.MASP and sp.SOLUONGTON >= 100)
+GO
+
+-- 3e. DANH SÁCH SẢN PHẨM BÁN CHẠY NHẤT
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN (SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(SOLUONG) >= ALL(
+							SELECT SUM(CT.SOLUONG)
+							FROM CT_HOADON AS CT
+							GROUP BY MASP
+							) 
+				)
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN (SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(SOLUONG) = (
+						SELECT MAX(TONG_SP)
+						FROM (
+							SELECT SUM(SOLUONG) AS TONG_SP
+							FROM CT_HOADON
+							GROUP BY MASP
+						) AS TONG)
+				)
+GO
+-- Cách 3. Dùng để so sánh execution plan
+DECLARE @MAX_SP INT
+SELECT @MAX_SP = (
+	SELECT MAX(TONG_SP)
+	FROM (
+		SELECT SUM(SOLUONG) AS TONG_SP
+		FROM CT_HOADON
+		GROUP BY MASP
+	) AS TONG
+)
+
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN (SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(SOLUONG) = @MAX_SP)
+GO
+
+-- 3f. DANH SÁCH SẢN PHẨM CÓ DOANH THU CAO NHẤT
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN ( SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(THANHTIEN) >= ALL(
+							SELECT SUM(CT.THANHTIEN)
+							FROM CT_HOADON AS CT
+							GROUP BY MASP
+							) 
+				)
+GO
+-- Cách 2. Dùng để so sánh execution plan
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN (SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(THANHTIEN) = (
+					SELECT MAX(TONG_DT)
+					FROM (
+						SELECT SUM(THANHTIEN) AS TONG_DT
+						FROM CT_HOADON
+						GROUP BY MASP
+					) AS TONG)
+				)
+GO
+-- Cách 3. Dùng để so sánh execution plan
+SELECT * 
+FROM SANPHAM AS SP
+WHERE SP.MASP IN (SELECT MASP
+				FROM CT_HOADON
+				GROUP BY MASP
+				HAVING SUM(THANHTIEN) = (
+									SELECT TOP 1 SUM(THANHTIEN) AS TONG_DT
+									FROM CT_HOADON
+									GROUP BY MASP
+									ORDER BY TONG_DT DESC
+									)
+				)
